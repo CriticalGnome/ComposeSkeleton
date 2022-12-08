@@ -1,7 +1,7 @@
 plugins {
     id(Plugins.androidApplication)
     id(Plugins.kotlinAndroid)
-    id(Plugins.junit5) version Plugins.Versions.junit5
+    id(Plugins.junit5) version Versions.junit5Plugin
     id(Plugins.kapt)
     id(Plugins.hilt)
 }
